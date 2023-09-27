@@ -6,22 +6,44 @@ body {
   .card {
     width: 400px;
     background: #fff;
-    margin: 16px auto;
+    margin: 10px auto;
+    padding: 2px;
+  }
+
+  .card h1,
+  .card div {
+    margin: 8px;
   }
   
   .title {
     background: #e3f4ff;
+    padding: 8px;
+    font-size: 20px;
   }
   
   .content {
     background: #e3f4ff;
+    padding: 8px;
+    font-size: 15px;
   }
   
   .button-container {
     background: #e3f4ff;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /*Added <p> to make effective display block. */
+  p {
+    margin-bottom: 1px;
+    margin-top: 1px;
   }
   
   button {
     background: white;
     border: 1px solid #eee;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
