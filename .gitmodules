@@ -1,3 +1,6 @@
 [submodule "odin-recipes"]
 	path = odin-recipes
 	url = https://github.com/chapipol/odin-recipes.git
+[submodule "git_test"]
+	path = git_test
+	url = git@github.com:chapipol/git_test.git
